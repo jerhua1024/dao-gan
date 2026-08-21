@@ -1,0 +1,135 @@
+# ==================== Python ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==================== 虚拟环境 ====================
+env/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+
+# ==================== Jupyter ====================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================== AI/ML 专属 ====================
+# 训练产物
+logs/
+checkpoints/
+outputs/
+runs/
+wandb/
+mlruns/
+
+# 模型文件
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+
+# DaoGAN 项目生成的中间/结果数据（✅ 自动生成，无需提交）
+extracted_scalars/
+plot_data/
+figures/
+tables/
+
+# TensorBoard 事件文件
+events.out.tfevents.*
+
+# ==================== 数据集 ====================
+data/
+datasets/
+dataset/
+*.zip
+*.tar
+*.tar.gz
+*.csv
+*.parquet
+
+# ==================== 🔒 敏感/投稿中内容（✅ 重点保护）====================
+# 待投稿论文及相关材料（绝对禁止上传）
+docs/
+drafts/
+*.tex
+*.pdf
+manuscript.*
+submission.*
+review_comments.*
+rebuttal.*
+
+# 会议/期刊投稿临时文件
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+
+# ==================== 系统文件 ====================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.exe
+*.msi
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+
+# ==================== IDE / 编辑器 ====================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Vim / NeoVim
+*.swp
+*.swo
+*~
+
+# ==================== 敏感信息 ====================
+.env
+.env.local
+*.key
+*.pem
+secrets.json
+credentials.yaml
+*.token
+api_key.txt
+
+# ==================== 临时/缓存文件 ====================
+*.tmp
+*.bak
+*.log
+temp/
+tmp/
+*.cache
+
+# ==================== DaoGAN 特例保留（✅ 重要）====================
+# 以下目录包含源码/文档，必须纳入版本控制：
+!torch-fidelity/         # 定制化评估库源码（pip install -e 本地依赖）
+!scripts/                # 数据处理与绘图脚本集
+!requirements.txt        # 依赖清单
+!LICENSE                 # 开源协议
