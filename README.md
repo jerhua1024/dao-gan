@@ -170,7 +170,7 @@ If you use this work, please cite:
 ```bibtex
 @article{wang2026daogan,
   title={DaoGAN: A Lightweight Framework for Stable GAN Training via Dynamic Adversarial Balance},
-  author={Wang, Jianhua and Chang, Boxue and Tian, Xingxiao},
+  author={Wang, Jianhua and Mo, Taiping and Chang, Boxue and Tian, Xingxiao},
   journal={International Journal of Machine Learning and Cybernetics (under review)},
   year={2026}
 }

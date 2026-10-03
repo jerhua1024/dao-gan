@@ -1,7 +1,7 @@
 ---
 title: "DaoGAN: A Daoism-Inspired GAN Training Framework"
 description: "Dynamic gradient scaling and temperature-controlled diversity for stable GAN training"
-authors: [Jianhua Wang, Boxue Chang, Xingxiao Tian]
+authors: [Jianhua Wang, Taiping Mo, Boxue Chang, Xingxiao Tian]
 date: 2026-08-06
 version: 1.0.2
 ---
@@ -243,7 +243,7 @@ dao-gan/
 
     @article{wang2026daogan,
       title={DaoGAN: A Lightweight Framework for Stable GAN Training via Dynamic Adversarial Balance},
-      author={Wang, Jianhua and Chang, Boxue and Tian, Xingxiao},
+      author={Wang, Jianhua and Mo, Taiping and Chang, Boxue and Tian, Xingxiao},
       journal={International Journal of Machine Learning and Cybernetics (under review)},
       year={2026}
     }
