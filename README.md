@@ -134,7 +134,7 @@ DaoGAN is complementary to, not competitive with, modern GAN paradigms:
 | **DaoGAN** | Optimization-level LR modulation | None | 0 | Empirical (no formal proof) |
 | R3GAN (NeurIPS 2024) | Loss reform (RpGAN+R1+R2) + modern architecture | Yes (ResNeXt) | Yes | Local convergence proof |
 | CSA-GAN (Neurocomputing 2025) | Contrastive self-adversarial + feature entropy | Encoder needed | Yes | Empirical |
-| Li-CFG (ML 2024) | Lipschitz-constrained functional gradient | No | Gradient penalty | Convergence guarantee |
+| Li-CFG (ML 2025) | Lipschitz-constrained functional gradient | No | Gradient penalty | Convergence guarantee |
 
 DaoGAN's unique value: a **paradigm-agnostic optimization plugin** for existing GAN pipelines that cannot afford architectural redesign.
 
@@ -168,10 +168,10 @@ Note: Training logs, datasets, extracted metrics, figures, tables, and paper sou
 If you use this work, please cite:
 
 ```bibtex
-@article{daogan2026,
+@article{wang2026daogan,
   title={DaoGAN: A Lightweight Framework for Stable GAN Training via Dynamic Adversarial Balance},
-  author={Wang, Jianhua and Mo, Taiping and others},
-  journal={arXiv preprint (to appear)},
+  author={Wang, Jianhua and Mo, Taiping and Jiang, Shoushuai and Chang, Boxue and Tian, Xingxiao},
+  journal={International Journal of Machine Learning and Cybernetics (under review)},
   year={2026}
 }
 ```

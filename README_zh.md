@@ -2,17 +2,16 @@
 title: "DaoGAN: A Daoism-Inspired GAN Training Framework"
 description: "Dynamic gradient scaling and temperature-controlled diversity for stable GAN training"
 authors: [Jianhua Wang, Taiping Mo, Shoushuai Jiang, Boxue Chang, Xingxiao Tian]
-date: 2026-04-06
-version: 1.0.0
+date: 2026-08-06
+version: 1.0.2
 ---
 
 # DaoGAN：受道家思想启发的 GAN 训练框架
-> **DaoGAN**: A Daoism-Inspired Framework for Stable GAN Training via Dynamic Gradient Scaling and Temperature-Controlled Diversity
+> **DaoGAN**: A Lightweight Framework for Stable GAN Training via Dynamic Adversarial Balance
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.3.1%2Bcu121-ee4c2c)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-2506.00001-b31b1b)](https://arxiv.org/abs/2506.00001)
 
 ---
 
@@ -242,11 +241,11 @@ dao-gan/
 ## 📜 学术引用
 若本项目对你的研究工作有帮助，请引用如下文献：
 
-    @article{wang2025daogan,
-      title={DaoGAN: A Lightweight, Philosophy-Inspired Framework for Stable and Diverse GAN Training},
-      author={Jianhua Wang, Taiping Mo, Shoushuai Jiang, Boxue Chang, Xingxiao Tian},
-      journal={arXiv preprint arXiv:2506.00001},
-      year={2025}
+    @article{wang2026daogan,
+      title={DaoGAN: A Lightweight Framework for Stable GAN Training via Dynamic Adversarial Balance},
+      author={Wang, Jianhua and Mo, Taiping and Jiang, Shoushuai and Chang, Boxue and Tian, Xingxiao},
+      journal={International Journal of Machine Learning and Cybernetics (under review)},
+      year={2026}
     }
 
 ---
@@ -262,5 +261,5 @@ dao-gan/
 > 道生一，一生二，二生三，三生万物，万物负阴而抱阳，冲气以为和 ——《道德经》第四十二章
 
 **项目维护者**：[Jer Hua](https://github.com/jerhua1024)
-**最后文档更新时间**：2026-04-06
+**最后文档更新时间**：2026-10-03
 **项目状态**：🟢 持续迭代开发中
